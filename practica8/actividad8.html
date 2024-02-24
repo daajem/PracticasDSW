@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<head>
+    <title>Actividad 8</title>
+</head>
+
+<style>
+    *{
+        text-align: center;
+    }
+</style>
+
+<body>
+<!-- Daniel Jimenez Manrique -->
+    <h1>Mi primer formulario</h1>
+
+    <form action="mailto:djimenez6@uabc.edu.mx" method="get" enctype="text/plain">
+
+        <p>Nombre: <input type="text" name="Nombre" placeholder="No mayor a 10 caracteres" maxlength="10"> </p>
+        <p>Edad: <input type="number" name="edad" min="10" max="18"></p>
+    
+       <p>Genero:<select name="Genero">
+            <option value="Masculino">Masculino</option>
+            <option value="Femenino">Femenino</option>
+        </select> </p> 
+    
+        <p><input type="radio"  name="Leer" value="Leer">Leer </p>
+        <p><input type="radio" name="Caminar" value="Caminar">Caminar </p>
+        <p><input type="checkbox"  name="De acuerdo" value="De acuerdo">De acuerdo</p>
+        <p><input type="submit" name="Enviar"> </p>
+
+        Comentarios: <textarea name="comentarios" rows="6"></textarea>
+
+    </form>
+
+
+</body>
+
+</html>

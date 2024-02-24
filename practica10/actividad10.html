@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<head>
+    <title>Actividad 10</title>
+</head>
+
+<body >
+
+    <!-- Daniel Jimenez Manrique -->
+
+    <h1>Registro</h1>
+
+    <form action="mailto: djimenez6@uabc.edu.mx" method="get" align="center">
+        
+        Mes en el que estas haciendo este registro:
+        <input type="month" id="mesRegistro" name="mesRegistro" autofocus ><br><br>
+        Nombre:
+        <input type="text" id="nombre" name="nombre" required maxlength="50" placeholder="Bruce Wayne"><br><br>
+    
+        Email:
+        <input type="email" id="email" name="email" required placeholder="practica@ejemplo.com"><br><br>
+    
+        Contraseña:
+        <input type="password" id="contrasena" name="contrasena" required minlength="6" maxlength="20" placeholder="De 6 a 20 caracteres"><br><br>
+    
+        Edad:
+        <input type="number" id="edad" name="edad" min="18" max="120" placeholder="18+"><br><br>
+
+        Fecha de nacimiento:
+        <input type="date" id="FechaN" name="FechaN"><br><br>
+
+        Numero de Telefono:
+        <input type="tel" id="cel" name="cel" placeholder="6643602877"><br><br>
+
+        ¿Trabajas? <br>
+        <input type="radio" id="TrabajoSI" name="TrabajoSI"> Si <input type="radio" id="TrabajoNO" name="TrabajoNO"> No <br><br>
+        
+        Semanas trabajadas (Si tu opcion fue negativa, no contestar):
+        <input type="week" id="semanas" name="semanas"><br><br>
+
+        Nivel de ingles: <br>
+        <input type="range" list="ingles" name="ingles" step="1"><br><br>
+
+        <datalist id="ingles">
+            <option value="0" label="0%"></option>
+            <option value="50" label="50%"></option>
+            <option value="100" label="100%"></option>
+          </datalist>
+        
+        Escuela de procedencia:
+        <input type="search" id="textBuscar" name="textBuscar"> <input type="button" value="Buscar" name="Buscar"><br><br>
+        
+        
+        Color Favorito:
+        <input type="color" id="color" name="color"><br><br>
+    
+        País: <br>
+        <select id="pais" name="pais" size="4">
+            <option value="Argentina">Argentina</option>
+            <option value="Brasil">Brasil</option>
+            <option value="Chile">Chile</option>
+            <option value="Colombia">Colombia</option>
+            <option value="España">España</option>
+            <option value="México">México</option>
+            <option value="Perú">Perú</option>
+            <option value="Otro">Otro</option>
+        </select><br><br>
+    
+        Mensaje:
+        <textarea id="mensaje" name="mensaje" rows="4" cols="50"></textarea><br><br>
+    
+        Foto de perfil:
+        <input type="file" id="foto" name="foto"><br><br>
+    
+        Acepto los términos y condiciones:
+        <input type="checkbox" id="acepto_terminos" name="acepto_terminos" required><br><br>
+    
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Limpiar">
+
+    </form>
+    
+    </body>
+</html>

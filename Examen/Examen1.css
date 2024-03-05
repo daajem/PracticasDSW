@@ -1,0 +1,63 @@
+
+/* Daniel Jimenez Manrique */
+body{
+    margin: auto;
+
+}
+
+header, nav, footer, section, aside {
+background-color: blueviolet;
+border: 1px black solid;
+border-radius: 10px;
+
+}
+
+
+header, nav, footer{
+    margin-top: 20px;
+    width: 70%;
+    height: 50px;
+}
+
+div {
+    width: 70%;
+    height: 350px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+
+}
+
+section{
+    width: 65%;
+    height: 350px;
+    margin-right: 50px;
+}
+
+aside{
+    width: 30%;
+    height: 350px;
+}
+
+article#article1, #article2, #article3{
+    width: 90%;
+    height: 20%;
+    margin: auto;
+    background-color: violet;
+    border: 1px black solid;
+    margin-top: 20px;
+    
+}
+
+
+article#article4, #article5{
+    width: 40%;
+    height: 20%;
+    margin: auto;
+    background-color: violet;
+    border: 1px black solid;
+    margin-top: 50px;
+
+
+}
+

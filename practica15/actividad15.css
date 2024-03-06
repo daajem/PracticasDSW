@@ -1,0 +1,50 @@
+tr:nth-child(2n) {
+    background: rgb(70%, 15%, 18%);
+}
+
+section p:nth-last-child(2n+1){
+    background: rgb(70%, 90%, 18%);
+}
+
+ul li{
+    border-bottom: 1px dotted #000;
+    font-size: 50px;
+}
+
+li:first-child{
+    border-top: 1px dotted #AF0;
+    background-color: #AF0;
+    border-bottom: none;
+    list-style-type: square;
+}
+
+a {
+    font-size: 3em;
+}
+
+li:last-child{
+    color: #FF0;
+    list-style-type: square;
+}
+
+a:link{
+    background-color: black;
+    color: blue;
+}
+
+a:visited {
+    color: red;
+}
+
+a:hover {
+    background-color: azure;
+}
+
+a#ai2:active {
+    color: rgb(53, 117, 11);
+}
+
+a#ai2:focus {
+    background-color: rgb(9, 13, 73);
+}
+

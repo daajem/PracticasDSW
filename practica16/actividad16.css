@@ -1,0 +1,55 @@
+
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #043269;
+    color: #fff;
+    padding: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section {
+    padding: 20px;
+}
+
+label{
+    float: left;
+    border: 2px #DF5E0B solid;
+    padding: 290px;
+    color: #fff;
+    text-align: center;
+    background-image: url(oppenheimer.jpg);
+}
+
+
+footer {
+    background-image: url(footerImage.png);
+    color: #fff;
+    text-align: center;
+    padding: 50px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}

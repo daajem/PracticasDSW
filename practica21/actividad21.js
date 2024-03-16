@@ -1,3 +1,4 @@
+// Daniel Jimenez Manrique
 var opcion = parseInt(prompt("Opcion 1: Calcular peso Marte \nOpcion 2: Calcular peso Jupiter \nOpcion 3: Salir"));
 
 var peso_marte = 639;

@@ -1,3 +1,4 @@
+// Daniel Jimenez Manrique
 var hayUnHuracan = true
 function Aviso_De_Huracam(hayUnHuracan) {
     

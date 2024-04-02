@@ -1,3 +1,4 @@
+// Daniel Jimenez Manrique
 function numeroParImpar() {
     var numero = 0;
     numero = parseInt(prompt("Ingrese el numero"));

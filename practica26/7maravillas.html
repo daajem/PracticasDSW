@@ -15,6 +15,7 @@
     <div id="pantalla-inicial"> <!-- Sección que representa la pantalla inicial del juego -->
         <p>¿A qué maravilla pertenece la imagen?</p> <!-- Texto de instrucción para el jugador -->
         <button class="btn" onclick="comenzarJuego()">JUGAR</button><br><!-- Botón que inicia el juego, llamando a la función 'comenzarJuego' cuando se hace clic en él -->
+        <a href="/practica27/actividad27.html"><h6>Intenta con este otro juego para adivinar marcas de autos</h6></a>
     </div>
 
     <!-- Pantalla juego -->
@@ -34,9 +35,11 @@
                 <div class="letra" id="l2">C</div> <!-- Identificador de la opción (C) -->
                 <div class="nombre" id="n2">OPCION C</div> <!-- Texto de la opción -->
             </div>
+
         </div>
     </div>
 
+   
     <!-- Pantalla final -->
     <div id="pantalla-final"> <!-- Sección que muestra los resultados al final del juego; probablemente esté oculta durante el juego -->
         <h2>CORRECTAS: <span id="numCorrectas">3</span></h2> <!-- Muestra el número de respuestas correctas; el valor '3' es estático aquí, pero se actualizará dinámicamente en el juego real -->
@@ -45,6 +48,7 @@
     </div>
     
     <script src="7maravillas.js"></script> <!-- Vincula el archivo JavaScript que contiene la lógica del juego -->
+    <script src="autos.js"></script>
 </body>
 </html>
 

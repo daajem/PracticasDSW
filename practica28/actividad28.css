@@ -1,0 +1,25 @@
+/* Daniel Jimenez Manrique */
+.container {
+    width: 50%;
+    margin: 50px auto;
+    text-align: center;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="submit"] {
+    margin: 10px;
+    padding: 5px;
+    width: 200px;
+}
+
+input[type="submit"] {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
